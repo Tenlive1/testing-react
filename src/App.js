@@ -1,3 +1,14 @@
+const Hello = () =>{
+  return (
+    <div>
+      <p>
+        Hello World
+      </p>
+    </div>
+  )
+}
+
+
 const App = () => {
   const now = new Date();
   const a = 10;
@@ -6,13 +17,10 @@ const App = () => {
   return(
     
     <div>
-      <p>
-        Hello World
-      </p>
-      <br />
-      <p>
-        testing
-      </p>
+      <h1>Greetings</h1>
+      <Hello />
+      <Hello />
+      <Hello />
     </div>
   )
 }
