@@ -7,19 +7,23 @@ const Hello = (props) =>{
     </div>
   )
 }
-
-
-const App = () => {
-  const name = 'bob';
-  const age = 21;
-  return(
-    
+const Footer = () => {
+  return (
     <div>
-      <h1>Greetings</h1>
-      <Hello name = 'perry' age = {21}/>
-      <Hello name = {name} age = {age}/>
+      greeting app created by <a href='https://github.com/mluukkai'>mluukkai</a>
     </div>
   )
 }
+
+const App = () => {
+  const friends = [ 'Peter', 'Maya']
+
+  return (
+    <div>
+      <p>{friends}</p>
+    </div>
+  )
+}
+
 
 export default App;
